@@ -16,3 +16,4 @@ typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.2
 vercel==0.2.1
+gunicorn==19.7.1
