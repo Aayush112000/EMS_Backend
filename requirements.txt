@@ -1,19 +1,26 @@
-asgiref==3.8.1
-certifi==2024.6.2
-charset-normalizer==3.3.2
-Django==5.0.6
-django-cors-headers==4.4.0
-django-filter==24.2
-djangorestframework==3.15.2
-idna==3.7
-Markdown==3.6
-psycopg==3.1.19
-psycopg2==2.9.9
-psycopg2-binary==2.9.9
-requests==2.32.3
-sqlparse==0.5.0
-typing_extensions==4.12.2
-tzdata==2024.1
-urllib3==2.2.2
-vercel==0.2.1
-gunicorn==19.7.1
+# Python version
+python_version == 3.6.*
+
+# Django and Django REST framework
+Django == 5.0.6
+djangorestframework == 3.15.2
+
+# Django utilities
+django-cors-headers == 4.4.0
+django-filter == 24.2
+sqlparse == 0.5.0
+
+# Markdown support
+Markdown == 3.6
+
+# PostgreSQL database adapter
+psycopg2-binary == 2.9.9
+
+# ASGI framework
+asgiref == 3.8.1
+
+# Typing extensions
+typing_extensions == 4.12.2
+
+# Timezone data
+tzdata == 2024.1
